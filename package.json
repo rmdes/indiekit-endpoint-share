@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "@indiekit/endpoint-share",
+  "version": "0.1.0",
+  "description": "Share endpoint for IndieKit",
+  "keywords": [
+    "indiekit",
+    "indieweb",
+    "micropub"
+  ],
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "url": "https://paulrobertlloyd.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/paulrobertlloyd/indiekit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulrobertlloyd/indiekit.git",
+    "directory": "packages/endpoint-share"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.3.0"
+  }
+}
