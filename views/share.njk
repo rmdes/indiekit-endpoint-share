@@ -3,21 +3,6 @@
 {% from "share-preview/macro.njk" import sharePreview %}
 
 {% block fieldset %}
-  {# Type selector — radio buttons #}
-  <fieldset class="field">
-    <legend class="label">{{ __("share.type.label") }}</legend>
-    <div style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
-      <label style="display: flex; align-items: center; gap: 0.25rem; cursor: pointer;">
-        <input type="radio" name="type" value="bookmark" {{ "checked" if shareType != "note" }}>
-        {{ __("share.type.bookmark") }}
-      </label>
-      <label style="display: flex; align-items: center; gap: 0.25rem; cursor: pointer;">
-        <input type="radio" name="type" value="note" {{ "checked" if shareType == "note" }}>
-        {{ __("share.type.note") }}
-      </label>
-    </div>
-  </fieldset>
-
   {{ sharePreview({
     title: {
       for: "name",
@@ -47,13 +32,6 @@
       "placeholder": "https://"
     },
     errorMessage: fieldData("bookmark-of").errorMessage
-  }) }}
-
-  {# Hidden url field — used by note type to pass URL to controller #}
-  {{ input({
-    name: "url",
-    type: "hidden",
-    value: data.url or fieldData("bookmark-of").value
   }) }}
 
   {{ input({
