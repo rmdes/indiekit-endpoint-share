@@ -1,6 +1,6 @@
 {
   "name": "@rmdes/indiekit-endpoint-share",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enhanced share endpoint for Indiekit. Supports bookmark and note post types via type selector.",
   "keywords": ["indiekit", "indiekit-plugin", "indieweb", "micropub"],
   "homepage": "https://github.com/rmdes/indiekit-endpoint-share",

@@ -18,6 +18,9 @@
     "content": {
       "label": "Content"
     },
+    "syndicate-to": {
+      "label": "Syndicate to"
+    },
     "type": {
       "label": "Post type",
       "bookmark": "Bookmark",
