@@ -18,6 +18,11 @@
     "content": {
       "label": "Content"
     },
+    "type": {
+      "label": "Post type",
+      "bookmark": "Bookmark",
+      "note": "Note"
+    },
     "submit": "Publish"
   },
   "status": {
