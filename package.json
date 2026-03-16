@@ -1,6 +1,6 @@
 {
   "name": "@rmdes/indiekit-endpoint-share",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Enhanced share endpoint for Indiekit. Supports bookmark and note post types via type selector.",
   "keywords": ["indiekit", "indiekit-plugin", "indieweb", "micropub"],
   "homepage": "https://github.com/rmdes/indiekit-endpoint-share",
@@ -11,7 +11,7 @@
   "main": "index.js",
   "files": ["assets", "includes", "lib", "locales", "views", "index.js"],
   "dependencies": {
-    "@indiekit/error": "^1.0.0-beta.25",
+    "@indiekit/error": "^1.0.0-beta.27",
     "express": "^5.0.0",
     "express-validator": "^7.0.0"
   },
