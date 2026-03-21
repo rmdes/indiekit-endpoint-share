@@ -18,7 +18,10 @@
       "label": "Judul"
     },
     "submit": "Terbitkan",
-    "title": "Bagikan"
+    "title": "Bagikan",
+    "syndicate-to": {
+      "label": "Sindikasikan ke"
+    }
   },
   "status": {
     "bookmarklet": {

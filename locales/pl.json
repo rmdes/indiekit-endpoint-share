@@ -18,7 +18,10 @@
       "label": "Tytuł"
     },
     "submit": "Publikuj",
-    "title": "Udostępnij"
+    "title": "Udostępnij",
+    "syndicate-to": {
+      "label": "Syndykuj do"
+    }
   },
   "status": {
     "bookmarklet": {

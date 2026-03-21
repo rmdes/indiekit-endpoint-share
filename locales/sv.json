@@ -18,7 +18,10 @@
       "label": "Titel"
     },
     "submit": "Publicera",
-    "title": "Dela"
+    "title": "Dela",
+    "syndicate-to": {
+      "label": "Syndikera till"
+    }
   },
   "status": {
     "bookmarklet": {

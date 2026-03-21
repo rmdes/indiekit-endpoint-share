@@ -18,7 +18,10 @@
       "label": "Naslov"
     },
     "submit": "Objaviti",
-    "title": "Podeli"
+    "title": "Podeli",
+    "syndicate-to": {
+      "label": "Sindikuj na"
+    }
   },
   "status": {
     "bookmarklet": {

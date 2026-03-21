@@ -18,7 +18,10 @@
       "label": "Titel"
     },
     "submit": "Veröffentlichen",
-    "title": "Teilen"
+    "title": "Teilen",
+    "syndicate-to": {
+      "label": "Syndizieren an"
+    }
   },
   "status": {
     "bookmarklet": {

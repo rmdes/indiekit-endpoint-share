@@ -18,7 +18,10 @@
       "label": "Titel"
     },
     "submit": "Publiceer",
-    "title": "Delen"
+    "title": "Delen",
+    "syndicate-to": {
+      "label": "Syndiceren naar"
+    }
   },
   "status": {
     "bookmarklet": {

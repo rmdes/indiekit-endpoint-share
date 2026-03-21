@@ -18,7 +18,10 @@
       "label": "标题"
     },
     "submit": "发布",
-    "title": "分享"
+    "title": "分享",
+    "syndicate-to": {
+      "label": "联合发布到"
+    }
   },
   "status": {
     "bookmarklet": {

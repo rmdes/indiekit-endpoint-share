@@ -18,7 +18,10 @@
       "label": "Título"
     },
     "submit": "Publicar",
-    "title": "Compartilhar"
+    "title": "Compartilhar",
+    "syndicate-to": {
+      "label": "Sindicar para"
+    }
   },
   "status": {
     "bookmarklet": {
