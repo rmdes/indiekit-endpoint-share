@@ -18,10 +18,10 @@
       "label": "Naslov"
     },
     "submit": "Objaviti",
-    "title": "Podeli",
     "syndicate-to": {
-      "label": "Sindikuj na"
-    }
+      "label": "Sindicate to"
+    },
+    "title": "Podeli"
   },
   "status": {
     "bookmarklet": {

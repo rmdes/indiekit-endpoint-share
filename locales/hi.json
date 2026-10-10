@@ -18,10 +18,10 @@
       "label": "टाइटल"
     },
     "submit": "प्रकाशित करें",
-    "title": "शेयर करें",
     "syndicate-to": {
-      "label": "सिंडिकेट करें"
-    }
+      "label": "सिंडिकेट टू"
+    },
+    "title": "शेयर करें"
   },
   "status": {
     "bookmarklet": {

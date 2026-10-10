@@ -48,15 +48,15 @@
     label: __("share.content.label")
   }) }}
 
-  {% if syndicationTargetItems.length %}
-    {{ checkboxes({
-      name: "mp-syndicate-to",
-      fieldset: {
-        legend: __("share.syndicate-to.label")
-      },
-      items: syndicationTargetItems
-    }) }}
-  {% endif %}
+  {{ checkboxes({
+    name: "mp-syndicate-to",
+    values: properties["mp-syndicate-to"],
+    fieldset: {
+      legend: __("share.syndicate-to.label"),
+      optional: true
+    },
+    items: syndicationTargetItems
+  }) if syndicationTargetItems.length }}
 
   {{ input({
     name: "access_token",

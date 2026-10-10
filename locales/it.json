@@ -18,10 +18,10 @@
       "label": "Titolo"
     },
     "submit": "Pubblicare",
-    "title": "Condividi",
     "syndicate-to": {
-      "label": "Sindaca a"
-    }
+      "label": "Distribuisci a"
+    },
+    "title": "Condividi"
   },
   "status": {
     "bookmarklet": {
